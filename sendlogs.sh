@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Cache and Log file paths
-CACHE_LOCATION="/opt/docker/lancache/volumes/lancache/"
+CACHE_LOCATION="/LanCache/"
 LOGS_LOCATION="$CACHE_LOCATION/logs"
 LOG_FILE="$LOGS_LOCATION/access.log"
 
 # MySQL database connection parameters
 DB_HOST="localhost"
-DB_USER="stats"
-DB_PASS="please!change?me"
+DB_USER="dbusername"
+DB_PASS="dbpassword"
 DB_NAME="lancache_db"
 DB_PORT="3306"
 
