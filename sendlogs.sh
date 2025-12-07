@@ -35,7 +35,7 @@ echo "Script started"
 declare -A aggregated_data
 
 # create work file, so that mysql can be slow
-cp "$LOG_FILE" > "${LOG_FILE}.work"
+cp "$LOG_FILE" "${LOG_FILE}.work"
 # Clear the log file
 echo "" > "$LOG_FILE"
 
